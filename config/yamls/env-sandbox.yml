@@ -1,0 +1,18 @@
+pyaster:
+    tm4j:
+        environment: Sandbox
+    sandboxonly: example
+erdecache:
+    redis:
+        stream:
+            host: sandbox-redis-stream.example.com
+            port: 6380
+            password: cmVk!XNfc3RyZ%FtX3Bhc3N3b3JkCg
+        auth:
+            host: sandbox-redis-auth.example.com
+            port: 6379
+            password: dG0@ai1iYWRmY_NlOlRvcHBTZ
+        cache:
+            host: sandbox-redis-cache.example.com
+            port: 6379
+            password: dG0@ai1iYWRmY_NlOlRvcHBTZ

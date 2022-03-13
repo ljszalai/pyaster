@@ -1,0 +1,36 @@
+other:
+    key: value
+pyaster:
+    tm4j:
+        environment: Local
+        enabled: false
+        projectKey: EXAMPLE
+        testCycleKey: EXAMPLE-C42
+        server/mp-rest/url: https://jira.example.com
+        server/basicAuthToken: dG00ai1iYWRmYWNlOlRvcHBTZXFyMTIzCg==
+erdecache:
+    redis:
+        ttl: 300
+        #-------------------------------
+        # Redis stream config
+        #-------------------------------
+        stream:
+            host: local-redis-stream.example.com
+            port: 6380
+            password: cmVkaXNfc3RyZW_tX3Bhc3N3b3JkCg
+        subStream:
+            host: ${erdecache.redis.stream.host}
+            port: ${erdecache.redis.stream.port}
+            password: ${erdecache.redis.stream.password}
+            database: 7
+        cache:
+            host: local-redis-cache.example.com
+            port: 6379
+            password: cmVkaXNfY2FjaG%fcGFzc3dvcmQK
+            database: 15
+testsuite:
+    login:
+        default:
+            normal:
+                login: 3COQG7WPRTC8IM0
+                password: test123

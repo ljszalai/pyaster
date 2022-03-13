@@ -1,0 +1,15 @@
+pyaster:
+    tm4j:
+        environment: Dev
+erdecache:
+    redis:
+        stream:
+            host: dev-redis-stream.example.com
+            port: 6396
+            password: ZGV2YmFkZmFjZQo=
+testsuite:
+    login:
+        default:
+            normal:
+                login: SampleLogin
+                password: TestO0I1Z2E3A4ä
