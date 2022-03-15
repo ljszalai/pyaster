@@ -11,8 +11,8 @@ in it
 2. random util to generate ids and uuids and tokens
 
 ## what has been planned (a.k.a. todo list)
-1. documentation
-2. requirements.txt
+1. documentation (any help in that would really be appreciated)
+2. GZip and Base64 support
 3. Zephyr Scale (in [roaster](https://github.com/i-Cell-Mobilsoft-Open-Source/roaster)
 it is known as TM4J)
 
